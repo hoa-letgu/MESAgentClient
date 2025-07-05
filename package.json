@@ -1,0 +1,17 @@
+{
+  "name": "mes-agent-monitor",
+  "version": "1.0.0",
+  "description": "MES agent monitoring tool",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "node-window-manager": "^2.2.4",
+    "ps-list": "^8.1.1",
+    "socket.io-client": "^4.7.2"
+  }
+}
